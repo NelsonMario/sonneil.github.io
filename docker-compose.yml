@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: nm-portfolio-svelte:latest
+    container_name: nm-portfolio-svelte
+    ports:
+      - "3001:3000"
+    restart: unless-stopped
