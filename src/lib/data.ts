@@ -53,6 +53,14 @@ export const projects = [
     liveUrl: 'https://papila.sonneil.space'
   },
   {
+    name: 'clabs',
+    description:
+      'CLABS is a structured framework for orchestrating a team of specialized AI agents to plan and build software using Claude Code Agent Teams. It enforces Hexagonal Architecture and clean engineering practices across every phase.',
+    language: 'Shell, Claude',
+    langColor: '#3572A5',
+    url: 'https://github.com/NelsonMario/clabs'
+  },
+  {
     name: 'LGTM',
     description:
       'Competitive programming game where players race to solve algorithmic challenges in real-time.',
@@ -84,12 +92,4 @@ export const projects = [
     langColor: '#3572A5',
     url: 'https://github.com/nelsonmario/StockPrediction'
   },
-  {
-    name: 'whatsapp_automation',
-    description:
-      'WhatsApp message automation tool for scheduling and bulk sending via the web client.',
-    language: 'Python',
-    langColor: '#3572A5',
-    url: 'https://github.com/nelsonmario/whatsapp_automation_message'
-  }
 ];
